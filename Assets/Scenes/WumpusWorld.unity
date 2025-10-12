@@ -1504,7 +1504,7 @@ MonoBehaviour:
   saveData: 1
   isGameOver: 0
   isModeAuto: 0
-  timerInterval: 0
+  timerInterval: 1
   randomSeed: 1
   gridMin: {x: 0, y: 0}
   gridMax: {x: 10, y: 10}
@@ -1513,7 +1513,7 @@ MonoBehaviour:
   nbWumpus: 3
   nbGold: 1
   nbAgent: 1
-  aiType: 2
+  aiType: 0
   apiProvider: 1
   personalities: 0000000002000000
   agents: []

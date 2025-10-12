@@ -56,7 +56,7 @@ namespace Prolog
                     options["launch_mqi"] = false; // Connect to existing Prolog process
                 }
 
-                _mqi = new PrologMQI(prologPath: "/opt/homebrew/bin/");
+                _mqi = new PrologMQI(prologPath: "/usr/bin/");
                 _prologThread = _mqi.CreateThread();
 
                 if (!File.Exists(_prologFilePath))
