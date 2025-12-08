@@ -37,7 +37,7 @@ namespace GameManagement
         public int nbAgent = 2;     // Number of agents
 
         // AI configuration
-        public enum AIType { Prolog, BehaviorTree, LargeLanguageModel, Basic, FiniteStateMachine }
+        public enum AIType { Prolog, BehaviorTree, LargeLanguageModel, Basic, FiniteStateMachine, SAT }
         public AIType aiType = AIType.Basic;
         public enum ApiProvider { OpenAI, Mistral, Ollama, OpenRouter }
         public ApiProvider apiProvider = ApiProvider.OpenAI;

@@ -79,6 +79,7 @@ namespace Agent
                 GameManager.AIType.BehaviorTree => typeof(AIBehaviorTree),
                 GameManager.AIType.FiniteStateMachine => typeof(AIFiniteStateMachine),
                 GameManager.AIType.LargeLanguageModel => typeof(AILargeLanguageModel),
+                GameManager.AIType.SAT => typeof(AISAT),
                 _ => typeof(AIBasic),
             };
             gameObject.AddComponent(aiComponentType);

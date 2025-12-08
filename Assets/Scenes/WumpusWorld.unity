@@ -1510,10 +1510,10 @@ MonoBehaviour:
   gridMax: {x: 10, y: 10}
   tileSize: 1.05
   nbPit: 3
-  nbWumpus: 3
+  nbWumpus: 0
   nbGold: 1
   nbAgent: 1
-  aiType: 0
+  aiType: 5
   apiProvider: 1
   personalities: 0000000002000000
   agents: []
