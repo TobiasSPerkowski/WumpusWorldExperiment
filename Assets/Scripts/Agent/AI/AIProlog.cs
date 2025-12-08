@@ -41,7 +41,8 @@ namespace Agent.AI
                     _agentAction.TryShootingArrow();  // Attack nearby monster
                     break;
                 case "pickup":
-                    _agentAction.PickUpGold();        // Collect valuable item
+                    //_agentAction.PickUpGold();        // Collect valuable item
+                    _gameManager.SetGameOver(false);
                     break;
                 case "discard":
                     _agentAction.Discard();           // Remove item from inventory
